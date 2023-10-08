@@ -35,7 +35,7 @@ function App() {
     Either you can include it in the index.html which will make it available to the whole app
     Or
     You can include it in a component, if you want to use it in just a single component */}
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossOrigin="anonymous" />
 
 
       {/* Without the map method we will have to manually write all the divs again and again
@@ -97,7 +97,7 @@ This is the advantage of using component based architecture reusable components 
           // While using map function, you should keep in mind that every render of the jsx should have a key
           // attribute at the top level element to let react differentiate the element with the other elements
           // Otherwise it will show a error on the console
-          <div key={data.id} className="card" >
+          <div className="card" >
             <div className="card-body">
               <h5 className="card-title">{data.name}</h5>
               <h6 className="card-subtitle mb-2 text-body-secondary">{data.type}</h6>
